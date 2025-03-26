@@ -1,0 +1,77 @@
+#header-counter {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+#header-counter > button {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+#btnAdd:hover {
+  background-color: green;
+  transition: 0.2s ease;
+}
+
+#btnAllClear:hover {
+  background-color: brown;
+  transition: 0.2s ease;
+}
+
+#counters {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 14px;
+  padding: 5px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+
+.counter > input {
+  flex-grow: 1;
+  padding: 2px;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+}
+
+.counter > input:focus {
+  outline: none;
+}
+
+.counter > span {
+  font-size: 20px;
+  margin: 0px 1px;
+}
+
+.btnDel {
+  font-size: 20px;
+  background-color: red;
+  border-radius: 3px;
+  padding: 0px 4px;
+}
+
+.btnCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  text-align: center;
+
+  font-size: 20px;
+  background-color: #dddddd;
+  color: #222222;
+  border: 1px solid #222222;
+  border-radius: 4px;
+}

@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="./counter.css" />
+    <script src="./script.js" defer></script>
     <title>Counter</title>
   </head>
 
@@ -16,7 +19,12 @@
     </header>
 
     <div id="main">
-      <p>hoge</p>
+      <header id="header-counter">
+        <button id="btnAdd">ADD</button>
+        <button id="btnAllClear">All Clear</button>
+      </header>
+
+      <div id="counters"></div>
     </div>
   </body>
 </html>
